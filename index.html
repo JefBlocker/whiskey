@@ -1,16 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SAMPLE PROJECT</title>
+  <title>Etsy Whiskey</title>
   <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-  <h1>Hello World</h1>
+  <div class="header">
+    <div class="logo">
+      <p>Etsy</p>
+    </div>
+    <div class="searchBox">
+    <!--<form class="search">
+      <input type="text" placeholder="Search for items or shops" required>
+      <value="Search">
+    </form>-->
+    </div>
+    <div class="signIn">
+          <ul>
+      <li>Sell on Etsy</li>
+      <li>Register</li>
+      <li id="signIn">Sign In</li>
+      <li id="cart"><img src="images/cart.png"Cart</li>
+    </ul>
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li>Clothing & Accessories</li>
+      <li>Jewelry</li>
+      <li>Craft Supplies & Tools</li>
+      <li>Weddings</li>
+      <li>Entertainment</li>
+      <li>Home & Living</li>
+      <li>Kids & Baby</li>
+      <li>Vintage</li>
+    </ul>
+  </nav>
+
+  <aside class="categories">
+
+  </aside>
+
+   <aside class="refineSearch">
+  </aside>
+
+  <div class="container"></div>
+
+  
+
+  <div class"mainBody">
+    <div>
+        <script type="text/template" id="itemTemplate">
+          <p>
+            title
+          </p>
+          <p class="price">
+            <%= price %>
+          </p>
+          <p class="description">
+            <%= description %>
+          </p>    
+        </div>
+        <br />
+      </script>
+    </div>
+    <div class="bottom">
+      <div>
+        <P>Related to <b>whiskey</b></P>
+        <ul id="relatedLinks">
+          <li><a href="#">whiskey barrel</a></li>
+          <li><a href="#">whiskey decanter</a></li>
+          <li><a href="#">whiskey stones</a></li>
+          <li><a href="#">jack daniels</a></li>        
+          <li><a href="#">bourbon</a></li>
+          <li><a href="#">scotch</a></li>
+          <li><a href="#">whiskey bottle</a></li>
+          <li><a href="#">beer</a></li>        
+          <li><a href="#">cigar</a></li>
+          <li><a href="#">flask</a></li>       
+        </ul>             
+      </div>
+      <p class="lookingForShops">Looking for shops? 
+        <a href="#">whiskeynweddingbells</a>, 
+        <a href="#">WhiskeyDogWares</a>, 
+        <a href="#">WhiskeyWhims</a>. 
+        <a href="#">See more</a>.
+      </p>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+
+  <footer>
+  </footer>
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/underscore/underscore.js"></script>  
+    <script src="js/etsy.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

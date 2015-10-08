@@ -1,0 +1,127 @@
+
+
+body {
+  background-color: #F5F5F1;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  //background-color: blue;
+  color: gray;
+  margin-left: 0;
+  margin-top: 0;
+  display: inline-block;
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+ font-family: Times New Roman, Serif; 
+ font-size: 42px;
+ color: #EC632F;
+ text-align: right;
+ vertical-align: middle;
+ width: 270px;
+ border: 1px solid orange;
+}
+
+.searchBox {
+  border: 1px solid gold;
+  width: 300px;
+  height: auto;
+}
+
+.signIn {
+  list-style-type: none;
+  border: 1px solid green;
+  //width: 400px;
+  //height: 100px;
+}
+
+#signIn {
+  border: 1px solid blue;
+}
+
+ul {
+  list-style-type: none;
+  //background-color: white;
+  //margin-top: 0;
+  //height: 42px;
+  //width: 100%;
+  //border-top: 1px solid gray;
+  //border-bottom: 1px solid gray;
+  //padding-left: 190px;
+}
+
+  li {
+  //display: inline-block;
+  //padding: 10px;
+  //font-size: 14px;
+  color: gray;
+  //text-align: center;
+  //border: 1px solid purple;
+}
+
+// First aside with categories
+.categories {
+  border: 1px solid burgundy;
+  width: 300px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+// Second aside with Refine Search 
+.refineSearch {
+  border: 1px solid burgundy;
+  width: 300px;
+  height: 500px;
+}
+
+// Main Body with item content
+.mainBody {
+  border: 1px solid brown;
+  width: 600px;
+  height: 1005px;
+}
+
+
+// Related to Whiskey Section
+.bottom {
+  font-size: 12px;
+  width: 600px;
+  border: 1px solid blue;
+}
+
+.bottom a:link {
+  color: #57A6C1;
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  color: #57A6C1;
+  text-decoration: underline;
+}
+
+#relatedLinks {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  border: 1px solid black;
+  -moz-column-count: 3;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
+  column-count: 3;
+  column-gap: 10px;
+  padding: 0 0 10px 0;
+}
+
+#relatedLinks li {
+  padding: 0 0 10px 0;
+}
+
+// Solid gray horizontal rule
+footer {
+  border-top: 1px solid gray;
+}

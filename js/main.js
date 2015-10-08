@@ -1,7 +1,14 @@
 (function () {
 
-  console.log('It Works!');
+var templateString = $('#itemTemplate').text();
+var itemFunction = _.template(templateString);
 
-  console.dir(_);
+_.each(etsy.results, function (item) {
+  console.log(item);
+  var itemHTML = templateFunction(item);
+  $('.container').append(itemHTML);
+});
+
+
 
 }());
