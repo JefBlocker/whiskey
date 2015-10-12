@@ -116,9 +116,9 @@ a:hover {
 
 nav {
   list-style: none;
-  height: 30px;
+  height: 45px;
   width: 100%;
-  line-height: 30px;
+  line-height: 45px;
   border-top: 1px solid #e1e3df;
   border-bottom: 1px solid #e1e3df;
 }
@@ -149,24 +149,33 @@ nav a:hover {
 }
 
 #wrapper1 {
-  border: 1px solid black;
   font-size: 12px;
+  line-height: 1.6em;
   font-weight: bold;
   color: #555555;
-  height: 1000px;
+  height: auto;
   width: 250px;
   margin-left: 190px;
   display: inline-block;
 }
 
+h4 {
+  padding-left: 10px;
+}
+
+li {
+  list-style: none;
+}
+
 #aside1 {
   background-color: #f5f5f1;
-  /*border: 1px solid #555555;*/
   height: 40px;
   width: 250px;
 }
 
 #aside1 p {
+  text-decoration: none;
+  color: #555555;
   font-weight: bold;
   padding-top: 12px;
 }
@@ -174,8 +183,14 @@ nav a:hover {
 #aside2 {
   background-color: #ffffff;
   border: 1px solid #555555;
-  height: 600px;
+  height: auto;
   width: 250px;
+  list-style: none;
+  border-radius: 2px;
+}
+
+#aside2 li {
+
 }
 
 #aside3 {
@@ -193,9 +208,90 @@ nav a:hover {
 #aside4 {
   background-color: #ffffff;
   border: 1px solid #555555;
-  height: 600px;
+  padding-left: 10px;
+  height: auto;
   width: 250px;
+  border-radius: 2px;
 }
+
+#swatches {
+  text-decoration: none;
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+#red {
+  background-color: red;
+  border: 1px solid #555555;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+}
+#orange {
+  background-color: #EE7D32;
+  border: 1px solid #555555;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+}
+
+#yellow {
+  background-color: #F3CC40;
+  border: 1px solid #555555;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+}
+
+#green {
+  background-color: #5FC42E;
+  border: 1px solid #555555;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+}
+
+#blue {
+  background-color: #5BCDF4;
+  border: 1px solid #555555;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+}
+
+#lavender {
+  background-color: #A950F4;
+  border: 1px solid #555555;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+}
+
+#black {
+  background-color: black;
+  border: 1px solid #555555;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  mmargin-right: 4px;
+}
+
+#white {
+  background-color: white;
+  border: 1px solid #555555;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+}
+
 
 #aside5 {
   background-color: #f5f5f1;
@@ -205,32 +301,136 @@ nav a:hover {
 }
 
 #wrapper2 {
-  background-color: white;
-  border: 1px solid black;
   font-size: 12px;
   font-weight: bold;
   color: #555555;
-  height: 1000px;
-  width: 710px;
+  height: auto;
+  width: 800px;
   margin-left: 15px;
   display: inline-block;
 }
 
 #allCategories {
-  border: 1px solid red;
   background-color: #f5f5f1;
   height: 40px;
   width: 710px;
 }
 
 #inventory {
+}
 
+#img {
+  width: 224.984px;
+  height: 178.656px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.item {
+  border: 1px solid #555555;
+  border-radius: 2px;
+  background-color: white;
+  width: 224.984px;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#itemLine1 {
+  background-color: white;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: -30px;
+  padding-left: 5px;
+}
+
+#itemLine2 {
+  background-color: white;
+  color: #78C041;
+  padding: 0
+}
+
+#itemLine2 p {
+  text-align: left;
+}
+
+#itemLine2 span {
+  float: right;
+}
+
+#itemLine2 a:link {
+  color: #AAAAAA;
+  text-decoration: none;
+}
+
+#itemLine2 a:hover {
+  color: #AAAAAA;
+  text-decoration: underline;
+}
+
+// Related to Whiskey Section
+.bottom {
+  font-size: 12px;
+  width: auto;
+  //border: 1px solid blue;
+}
+
+.bottom a:link {
+  color: #57A6C1;
+  text-decoration: none;
+}
+
+.bottom a:hover {
+  color: #57A6C1;
+  text-decoration: underline;
 }
 
 #relatedTo {
-  border: 1px solid blue;
-  color: #3e93c0
+  color: #3e93c0;
   background-color: #f5f5f1;
+}
+
+#relatedLinks {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  -moz-column-count: 3;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
+  column-count: 3;
+  column-gap: 10px;
+  line-height: 1.4em;
+  padding: 0 0 10px 0;
+}
+
+#relatedLinks li {
+  padding: 0 0 10px 0;
+}
+
+.bottomButtons {
+  display: inline-block;
+  margin: 0;
+  padding: 5px;
+  font-size: 14px;
+  color: 555555;
+  text-decoration: none;
+  background-color: Isabelline;
+  //border: 1px solid #555555;
+}
+
+.disabled {
+  color: #AAAAAA;
+  background-color: Concrete;
+}
+
+.current {
+  color: black;
+  background-color: Isabelline;
 }
 
 footer {

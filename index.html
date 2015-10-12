@@ -27,7 +27,7 @@
         <li id="cart">
           <a href="#">
             <figure>
-              <img src="cart.png">
+              <img src="images/cart.png">
               <figcaption>Cart
               </figcaption>
             </figure>
@@ -44,7 +44,7 @@
         <li><a href="#">Entertainment</a></li>
         <li><a href="#">Home &amp; Living</a></li>
         <li><a href="#">Kids &amp; Baby</a></li>
-        <li><a href="#">Vintage</li>
+        <li><a href="#">Vintage</a></li>
       </ul>
     </nav>
   </header>
@@ -85,10 +85,9 @@
            <b>Item Type</b><br>
       <form action="#">
       <input type="radio" name="type" value="All Items" checked="checked"/> All Items<br>
-      <input type="radio" name="type" value="Handmade" /> Handmade<br>
-      <input type="radio" name="type" value="Vintage" /> Vintage<br>
+      <input type="radio" name="type" value="Handmade" /> <a href="#">Handmade</a><br>
+      <input type="radio" name="type" value="Vintage" /> <a href="#">Vintage</a><br>
       </form>
-      <br>
       <hr>
       <b>Price</b>
       <form action="#">
@@ -96,7 +95,7 @@
        <input type="text" name="high" size="10" maxlength="30" placeholder="$ High" /> 
        <button>&GT;</button>
       <hr>
-      <b>Filter by Color</b><br>
+      <b>Filter by Color</b>
         <ul id="swatches">
           <li id="red"></li>
           <li id="orange"></li>
@@ -111,24 +110,19 @@
       <b>Ordering Options</b>
       <br>
       <form action="#">
-      <input type="checkbox" name="Ordering Options" value="Accepts Etsy Gift Cards" /> Accepts Etsy Gift Cards<br>
-      <input type="checkbox" name="Ordering Options" value="Customizable" /> Customizable
+      <input type="checkbox" name="Ordering Options" value="Accepts Etsy Gift Cards" /> <a href="#">Accepts Etsy Gift Cards</a><br>
+      <input type="checkbox" name="Ordering Options" value="Customizable" /> <a href="#">Customizable</a>
       </form>
-      <br>
       <hr>
       <b>Shop Location</b>
-      <br>
       <form action="#">
         <input type="radio" name="type" value="Anywhere" checked="checked"/> Anywhere<br>
-       <input type="radio" name="type" value="United States" /> United States<br>
-      </form> <br>
-      Choose a customer location
-      <br>
-      <br>
+       <input type="radio" name="type" value="United States" /> <a href="#">United States</a><br>
+      </form>
+      <a href="#">Choose a customer location</a>
       <hr>
-      <br>
+      <b>Ship To</b><br>
       <form action="#">
-      Ship To
       <select name="United States">
       <option value="Australia">Australia
       </option>
@@ -138,6 +132,7 @@
       </option>
       </select>
       </form>
+      <br>
         </aside>
 
         <!--<aside id="aside5">
@@ -147,16 +142,18 @@
 
       <div id="wrapper2">
         <article id="allCategories">
-        <p><a=href="#">All categories</a> &gt; <b>"whiskey"</b> (25,590 Results)</p>
+        <p><a href="#">All categories</a> &gt; <b>"whiskey"</b> (25,590 Results)</p>
       
         </article>
         
-        <article id="inventory">
+        <article class="container">
           <script type="text/template" id="item-template">
             <div class="item">
+              <a href="<%= shop_section_id.url %>">
               <img src="<%= Images[0].url_570xN %>" id="img">
               <div id="itemLine1">
-              <%= title %>...
+              <%= title %>...title
+              </a>
               </div>
               <div id="itemLine2">  
                 <p><a href="#"><%= Shop.shop_name %></a>
