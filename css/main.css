@@ -130,9 +130,10 @@ nav a:hover {
   font-weight: bold;
   color: #555555;
   height: auto;
-  width: 250px;
+  width: auto;
   margin-left: 190px;
-  display: inline-block; }
+  display: inline-block;
+  float: left; }
 
 h4 {
   padding-left: 10px; }
@@ -143,7 +144,7 @@ li {
 #aside1 {
   background-color: #f5f5f1;
   height: 40px;
-  width: 250px; }
+  width: auto; }
 
 #aside1 p {
   text-decoration: none;
@@ -155,7 +156,7 @@ li {
   background-color: #ffffff;
   border: 1px solid #555555;
   height: auto;
-  width: 250px;
+  width: auto;
   list-style: none;
   border-radius: 2px; }
 
@@ -163,7 +164,7 @@ li {
   background-color: #f5f5f1;
   /*border: 1px solid #555555;*/
   height: 40px;
-  width: 250px; }
+  width: auto; }
 
 #aside3 p {
   font-weight: bold;
@@ -174,7 +175,7 @@ li {
   border: 1px solid #555555;
   padding-left: 10px;
   height: auto;
-  width: 250px;
+  width: auto;
   border-radius: 2px; }
 
 #swatches {
@@ -250,16 +251,17 @@ li {
   background-color: #f5f5f1;
   border: 1px solid #555555;
   height: 600px;
-  width: 250px; }
+  width: auto; }
 
 #wrapper2 {
   font-size: 12px;
   font-weight: bold;
   color: #555555;
   height: auto;
-  width: 800px;
+  width: 750px;
   margin-left: 15px;
-  display: inline-block; }
+  display: inline-block;
+  float: left; }
 
 #allCategories {
   background-color: #f5f5f1;
@@ -311,9 +313,14 @@ li {
   color: #AAAAAA;
   text-decoration: underline; }
 
+#relatedTo {
+  color: #3e93c0;
+  background-color: #f5f5f1;
+  float: left; }
+
 .bottom {
   font-size: 12px;
-  width: auto; }
+  width: 1000px; }
 
 .bottom a:link {
   color: #57A6C1;
