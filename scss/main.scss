@@ -1,127 +1,238 @@
-
-
 body {
-  background-color: #F5F5F1;
+  background-color: #f5f5f1;
+  color: #555555;
   font-family: Helvetica, sans-serif;
+  font-size: 14px;
   margin: 0;
-}
-
-.header {
-  //background-color: blue;
-  color: gray;
-  margin-left: 0;
-  margin-top: 0;
-  display: inline-block;
-  border: 1px solid red;
   width: 100%;
-  height: auto;
 }
 
-.logo {
- font-family: Times New Roman, Serif; 
- font-size: 42px;
- color: #EC632F;
- text-align: right;
- vertical-align: middle;
- width: 270px;
- border: 1px solid orange;
+#page {
+  background-color: #f5f5f1;
+  width: 100%;
+}
+
+header {
+  background-color: white;
+  height: auto;
+  width: 100%;
+}
+
+#logo {
+  color: #ec632f;
+  font-family: Times, serif;
+  font-size: 42px;
+  line-height: 0px;
+  margin-left: 190px;
+  display: inline-block;
 }
 
 .searchBox {
-  border: 1px solid gold;
-  width: 300px;
   height: auto;
+  width: 33%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 92px;
+}
+
+.search {
+  width: 240px;
+  height: 23px;
+  color: black;
+  font-size: 14px;
+  padding: 6px 15px;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.button {
+  position: relative;
+  height: 38px;
+  width: 80px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 7px 15px;
+  left: -4px;
+  border: 1px solid black;
+  background-color: #4aa9c5;
+  color: white;
+  border-radius: 2px;
 }
 
 .signIn {
-  list-style-type: none;
-  border: 1px solid green;
-  //width: 400px;
-  //height: 100px;
+  list-style: none;
+  height: auto;
+  width: 33%;
+  display: inline-block;
+  color: #3e93c0;
 }
 
-#signIn {
-  border: 1px solid blue;
+.signIn ul {
+
 }
 
-ul {
-  list-style-type: none;
-  //background-color: white;
-  //margin-top: 0;
-  //height: 42px;
-  //width: 100%;
-  //border-top: 1px solid gray;
-  //border-bottom: 1px solid gray;
-  //padding-left: 190px;
+.signIn li {
+  display: inline;
+  margin-right: 3px;
+  padding: 8px;
+  color: #3e93c0;
 }
 
-  li {
-  //display: inline-block;
-  //padding: 10px;
-  //font-size: 14px;
-  color: gray;
-  //text-align: center;
-  //border: 1px solid purple;
-}
-
-// First aside with categories
-.categories {
-  border: 1px solid burgundy;
-  width: 300px;
-  height: 500px;
-  margin-bottom: 50px;
-}
-// Second aside with Refine Search 
-.refineSearch {
-  border: 1px solid burgundy;
-  width: 300px;
-  height: 500px;
-}
-
-// Main Body with item content
-.mainBody {
-  border: 1px solid brown;
-  width: 600px;
-  height: 1005px;
-}
-
-
-// Related to Whiskey Section
-.bottom {
-  font-size: 12px;
-  width: 600px;
-  border: 1px solid blue;
-}
-
-.bottom a:link {
-  color: #57A6C1;
+a:link {
+  color: #3e93c0;
   text-decoration: none;
 }
 
-.bottom a:hover {
-  color: #57A6C1;
+a:hover {
+  color: #3e93c0;
   text-decoration: underline;
 }
 
-#relatedLinks {
-  list-style-type: none;
-  padding-left: 0;
-  text-align: left;
+#signIn {
+  border: 1px solid #3e93c0;
+  border-radius: 2px;
+  margin-right: 13px;
+  color: #3e93c0;
+}
+
+#cart {
+  color: #e1e3df;
+  border-left: 1px solid #e1e3df;
+  padding-top: -40px;
+  padding-right: 50px;
+  font-size: 10px;
+  max-height: 35px;
+  max-width: 35px;
+  display: inline-block;
+}
+
+#cart img {
+  max-height: 22px;
+  max-width: 22px;
+  display: inline-block;
+  padding-left: -25px;
+  vertical-align: bottom;
+}
+
+nav {
+  list-style: none;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  border-top: 1px solid #e1e3df;
+  border-bottom: 1px solid #e1e3df;
+}
+
+nav ul {
+  display: inline;
+  margin-left: 148px;
+  }
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ec632f;
+  text-decoration: underline;
+}
+
+#content {
+  /*background-color: blue;*/
+  height: auto;
+  width: 100%;
+}
+
+#wrapper1 {
   border: 1px solid black;
-  -moz-column-count: 3;
-  -moz-column-gap: 10px;
-  -webkit-column-count: 3;
-  -webkit-column-gap: 10px;
-  column-count: 3;
-  column-gap: 10px;
-  padding: 0 0 10px 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #555555;
+  height: 1000px;
+  width: 250px;
+  margin-left: 190px;
+  display: inline-block;
 }
 
-#relatedLinks li {
-  padding: 0 0 10px 0;
+#aside1 {
+  background-color: #f5f5f1;
+  /*border: 1px solid #555555;*/
+  height: 40px;
+  width: 250px;
 }
 
-// Solid gray horizontal rule
+#aside1 p {
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+#aside2 {
+  background-color: #ffffff;
+  border: 1px solid #555555;
+  height: 600px;
+  width: 250px;
+}
+
+#aside3 {
+  background-color: #f5f5f1;
+  /*border: 1px solid #555555;*/
+  height: 40px;
+  width: 250px;
+}
+
+#aside3 p {
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+#aside4 {
+  background-color: #ffffff;
+  border: 1px solid #555555;
+  height: 600px;
+  width: 250px;
+}
+
+#aside5 {
+  background-color: #f5f5f1;
+  border: 1px solid #555555;
+  height: 600px;
+  width: 250px;
+}
+
+#wrapper2 {
+  background-color: white;
+  border: 1px solid black;
+  font-size: 12px;
+  font-weight: bold;
+  color: #555555;
+  height: 1000px;
+  width: 710px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+#allCategories {
+  border: 1px solid red;
+  background-color: #f5f5f1;
+  height: 40px;
+  width: 710px;
+}
+
+#inventory {
+
+}
+
+#relatedTo {
+  border: 1px solid blue;
+  color: #3e93c0
+  background-color: #f5f5f1;
+}
+
 footer {
-  border-top: 1px solid gray;
+  border-top: 1px solid #e1e3df;
 }
